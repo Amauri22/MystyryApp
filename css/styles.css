@@ -1,0 +1,202 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #261d42;
+    color: #ffffff;
+}
+
+#mystyry-layer-logo{
+    margin-left: -10px;
+    margin-top: -10px;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #261d42;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+/*Navigation bar*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.coloured-letter {
+    color: #B8181D;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+/*Download Buttons*/
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#download-button-1 {
+    background-color: #B8181D;
+}
+
+#download-button-1:hover {
+    color: #B8181D;
+    background-color: #ffffff;
+}
+/*Title image*/
+
+.title-image {
+    position: absolute;
+    max-width: 30%;
+    height: auto;
+    opacity: 45%;
+    right: 10%;
+    /*z-index: ;*/
+
+}
+
+
+
+/*Features section*/
+
+#features {
+    position: relative;
+    padding: 2% 15% 2% 15%;
+    background-color:whitesmoke ;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon-values {
+    color: #B8181D;
+    margin-bottom: 1rem;
+}
+
+.icon-values:hover {
+    color: #261d42;
+}
+
+/*Testimonial section*/
+
+#testimonials {
+
+    text-align: center;
+    background-color: #C3BEF7;
+    color: #ffffff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 10%;
+    margin: 20px;
+
+}
+
+.carousel-item {
+    padding: 7% 15% 7% 15%;
+}
+
+/*Press section*/
+#press {
+    background-color:#C3BEF7 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing Section*/
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/*call to action setting*/
+#cta {
+    background-color: #261d42;
+    padding: 7% 15%;
+}
+
+
+.cta-h3 {
+    color: #ffffff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/*Footer section*/
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icons {
+    margin: 10px 10px;
+}
+/*Media query*/
+@media (max-width: 1240px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        max-width: 100%;
+        height: auto;
+        left: 10%;
+    }
+
+
+}
+
+.dice-game {
+    text-align: center;
+    margin-top:  -10%;
+}
+
+.players {
+    padding: 1% 40% 1% 40%;
+    font-size: 1rem;
+}
